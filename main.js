@@ -35,3 +35,9 @@ function showSummary() {
 
 // chama a função showSummary quando a nova página é carregada
 window.onload = showSummary;
+
+function reset() {
+  document.getElementById("fname").value = "";
+  document.getElementById("fqtd").value = "";
+  document.getElementById("fclass").value = "";
+}
