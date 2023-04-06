@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="showSummary()">
   <header>
     <p>Home</p>
     <p>Cadatro de Medicamentos</p>
@@ -24,14 +24,14 @@
       <h2>Farmácia da Gente</h2>
     </div>
   </main>
-  <section id="pageAdc">
+  <section >
       <h2>Novo medicamento adicionado!</h2>
       <div id="container-new-med">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p id="name-summary"></p>
+        <p id="qnt-summary"></p>
+        <p id="price-summary"></p>
       </div>
-      <button > Voltar</button> 
+      <button href="index.html"> Voltar</button> 
   </section>
    
 </body>

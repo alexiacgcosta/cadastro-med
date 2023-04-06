@@ -25,9 +25,9 @@
     </div>
   </main>
   <section id="form">
-    <form onsubmit="Cadastrar()" action="./sucess.html">
-      <label for="nome">Nome do Medicamento</label>
-      <input name="nome" type="text" id="medName" placeholder="Bonpragrip" required></input>
+    <form  id="my-form">
+      <label for="name">Nome do Medicamento</label>
+      <input name="name" type="text" id="medName" placeholder="Bonpragrip" required></input>
 
       <label for="qnt">Quantidade Disponível</label>
       <input name="qnt" type="number" id="medQnt" placeholder="100" required></input>
@@ -36,10 +36,11 @@
       <input name="price" id="medPrice" type="text" placeholder="10,00" required></input>
 
       <label for="class">Classe de Medicamento</label>
-      <input name="class" id="medClass" type="text" placeholder="Antibiótico" required></input>
+      <input name="classe" id="medClass" type="text" placeholder="Antibiótico" required></input>
+      <button class="submit" type="submit" href="sucess.html"> Cadastrar</button>  
     </form>
 
-    <button class="submit-button" type="submit" > Cadastrar</button>  
+    
   </section>
 </body>
 <script src="main.js"></script>
